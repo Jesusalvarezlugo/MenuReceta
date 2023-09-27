@@ -6,6 +6,11 @@ using System.Threading.Tasks;
 
 namespace MenuReceta.Servicios
 {
+
+    /// <summary>
+    /// Se implementa la interfaz del menú
+    /// 270923-jal
+    /// </summary>
     internal class MenuImplementacion : MenuInterfaz
     {
         public void MensajeBienvenida()

@@ -20,7 +20,6 @@ namespace MenuReceta
             //llamada al método que imprime por pantalla el mensaje 
 
             //objeto
-
             MenuInterfaz mi = new MenuImplementacion();
 
             mi.MensajeBienvenida();
@@ -32,6 +31,7 @@ namespace MenuReceta
 
             int opcionSeleccionada;
 
+            //Desde la primera iteración debe cumplirse la condición
             while (!opcionCerrar)
             {
                 opcionSeleccionada = mi.MostrarMenu();
@@ -44,6 +44,15 @@ namespace MenuReceta
                         break;
 
                     case 1:
+                        Console.WriteLine("[INFO] Se muestra la opcion 1");
+                        break;
+
+                    case 2:
+                        Console.WriteLine("[INFO] se muestra la opcion 2");
+                        break;
+
+                    default:
+                        Console.WriteLine("[INFO] La opcion seleccionada no esta disponible");
                         break;
                 }
             }

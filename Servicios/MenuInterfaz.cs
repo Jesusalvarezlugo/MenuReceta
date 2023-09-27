@@ -8,8 +8,15 @@ namespace MenuReceta.Servicios
 {
     internal interface MenuInterfaz
     {
+        /// <summary>
+        /// Método que muestra el mensaje de bienvenida
+        /// </summary>
         void MensajeBienvenida();
 
+        /// <summary>
+        /// Metodo que muestra el menú con las opciones
+        /// </summary>
+        /// <returns></returns>
         public int MostrarMenu();
     }
 }
