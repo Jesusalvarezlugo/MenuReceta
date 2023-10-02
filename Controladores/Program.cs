@@ -34,6 +34,7 @@ namespace MenuReceta
             //Desde la primera iteración debe cumplirse la condición
             while (!opcionCerrar)
             {
+                //Se guarda la opcion seleccionada en opcionSeleccionada
                 opcionSeleccionada = mi.MostrarMenu();
 
                 switch(opcionSeleccionada)
